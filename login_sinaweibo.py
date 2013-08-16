@@ -150,5 +150,5 @@ def openweb(url = 'http://s.weibo.com/weibo/%25E8%25B5%2584%25E7%2594%259F%25E5%
     out.close()
     #print text
     
-login('topman3758@163.com','single1989czg!')
+login('123@163.com','123')
 #openweb()
