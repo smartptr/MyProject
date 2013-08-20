@@ -97,12 +97,8 @@ public class GetTags {
 		String dir = "C:\\Users\\Topman3758\\Desktop\\ntt_data\\ntt_data\\ntt";
 		//readFileByLines1(dir+"\\现代胜达\\用户标签.txt");
 		getAllFile(dir);
-		Iterator<String> it = myFilePath.iterator();
-		int times = 0;
+		Iterator<String> it = myFilePath.iterator();;
 		while(it.hasNext()){
-			if(times == 1)
-				break;
-			++times;
 			String filepath = it.next();
 			System.out.println(filepath);
 			Set myIDSet = readFileByLines(filepath);
