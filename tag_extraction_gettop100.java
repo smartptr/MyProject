@@ -90,7 +90,7 @@ public class GetTags {
 	}
 	public static void main(String[] args) throws IOException {
 		
-		String access_token ="2.00m1Ou4CI4cigDbfee2f4ddfQ1ygTC";
+		String access_token ="";
 		Tags tm = new Tags();
 		tm.client.setToken(access_token);
 		
